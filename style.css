@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family:inter-Bold;
+    src: url("assets/fonts/static/Inter-SemiBold.ttf");
+}
+*{
+    margin:0xp;
+    padding:0px;
+}
+body{
+    background-color:black;
+}
+.social-icon-card{
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #292727;
+    width:400px;
+    height:550px;
+    border-radius:9px;
+}
+.round-card-img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    background: url("assets/images/avatar-jessica.jpeg");
+}
+.heading{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.avatar-name{
+    font-family: inter-Bold;
+    font-size:44px;
+    color: white;
+    margin:0px;
+    padding:0px;
+}
+.address{
+    color:	#2fac1f;
+    font-family:inter-Bold;
+    font-size: 20px;
+    margin:0px;
+    padding:0px;
+}
+.tagline{
+    color: white;
+    font-size:20px;
+    margin:0px;
+    padding:0px;
+}
+button{
+    width:90%;
+    height:34px;
+    background-color:#585151;
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+button>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+    font-weight:400;
+    
+}
+button:hover{
+    background-color: #2fac1f;
+    color: black;
+}
